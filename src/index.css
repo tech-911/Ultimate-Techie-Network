@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* ------------------pulp display------------- */
+@font-face {
+  font-family: "Pulp Display";
+  src: url("../public/fonts/PulpDisplay-Light.ttf");
+}
