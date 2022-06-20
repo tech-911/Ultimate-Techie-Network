@@ -4,8 +4,8 @@ import GoogleImg from "../../assets/google.svg";
 import { BiChevronDown } from "react-icons/bi";
 const CreateAccount = () => {
   return (
-    <div className="wrapper flex items-center justify-center font-pulpdisplay">
-      <div className="bg-[white] w-[40%] rounded-[4px] px-6 py-6">
+    <div className="wrapper flex items-center justify-center font-pulpdisplay pt-[15%]">
+      <div className="bg-[white] w-[40%] rounded-[4px] px-6 py-6 mb-[5%] ">
         <div className="Heading-container mb-4">
           <div className="flex items-center justify-center">
             <h1 className=" font-bold text-center text-[24px] mb-7 w-[80%]">
@@ -93,12 +93,24 @@ const CreateAccount = () => {
               className="rounded-[4px] p-2 border outline-none w-[100%]"
             />
           </div>
-          <div>
+          <div className="mb-4">
             <p className="text-[12px] font-semibold mb-1">Gender</p>
             <div className="rounded-[4px] border outline-none w-[100%] flex items-center justify-between">
               <input type="text" className="outline-none p-2 w-[80%]" />
-              <BiChevronDown className="mr-2 text-[24px] cursor-pointer"/>
+              <BiChevronDown className="mr-2 text-[24px] cursor-pointer" />
             </div>
+          </div>
+          <div className="mb-4">
+            <p className="text-[12px] text-center">
+              By registering you agree to Techtrend Africa's{" "}
+              <span className="text-[#FA9706]">Terms of Use</span> and{" "}
+              <span className="text-[#FA9706]">Privacy Policy</span>
+            </p>
+          </div>
+          <div className="mb-4">
+            <button className="w-[100%] text-center p-2 bg-[#3E0563] font-pulpdisplay text-[white] text-[14px] rounded-[4px]">
+              Create my account
+            </button>
           </div>
         </div>
       </div>
