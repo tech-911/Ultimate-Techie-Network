@@ -1,38 +1,37 @@
 import React from "react";
-import Nav from "../../components/navbar/nav";
+// import Nav from "../../../components/navbar/nav";
 import { HiSearch } from "react-icons/hi";
 import { BsArrowRight } from "react-icons/bs";
-import "./home.css";
-import Target1 from "../../assets/target1.svg";
-import Target2 from "../../assets/target2.svg";
-import Target3 from "../../assets/target3.svg";
-import Target4 from "../../assets/target4.svg";
-import connectedAwards from "../../assets/connected-awards.png";
-import celebrated from "../../assets/celebrated.png";
-import RightBg from "../../assets/right-bg.png";
-import LeftBg from "../../assets/left-bg.png";
-import talent1 from "../../assets/first-talent.png";
-import talent2 from "../../assets/second-talent.png";
-import talent3 from "../../assets/third-talent.png";
-import FooterLogo from "../../assets/footer-logo.svg";
+import "./landing.css";
+import Target1 from "../../../assets/target1.svg";
+import Target2 from "../../../assets/target2.svg";
+import Target3 from "../../../assets/target3.svg";
+import Target4 from "../../../assets/target4.svg";
+import connectedAwards from "../../../assets/connected-awards.png";
+import celebrated from "../../../assets/celebrated.png";
+import RightBg from "../../../assets/right-bg.png";
+import LeftBg from "../../../assets/left-bg.png";
+import talent1 from "../../../assets/first-talent.png";
+import talent2 from "../../../assets/second-talent.png";
+import talent3 from "../../../assets/third-talent.png";
+import FooterLogo from "../../../assets/footer-logo.svg";
 
 const Home = () => {
   return (
     <div className="font-pulpdisplay">
-      <Nav />
       <div className="flex items-center justify-center mb-8">
         <p className="text-[96px] text-center tracking-[-0.06em] w-[60%] leading-[115px]">
           First Ever Tech Personality Award For Africans in Europe
         </p>
       </div>
       <div className="flex items-center justify-center mb-6">
-        <div className="flex items-center justify-between w-[30%] ">
-          <div className="border-[1px] border-[#DBDBDB] rounded-[4px] flex items-center pl-6 pr-10 py-1 w-[78%]">
+        <div className="flex items-center justify-between w-[30%] home-search-res">
+          <div className="border-[1px] border-[#DBDBDB] rounded-[4px] flex items-center pl-6 py-1 w-[78%]">
             <HiSearch className="text-[#BABABA] text-[20px]" />
             <input
               type="text"
               placeholder="Nominee's Name, Nominee's Category"
-              className="outline-none p-2 w-[90%]"
+              className="outline-none p-2 w-[100%] home-search-res-1"
             />
           </div>
           <button className="bg-[#3E0563] px-8 py-3 rounded-[4px] text-[white]">

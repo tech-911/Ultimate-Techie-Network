@@ -14,7 +14,9 @@ const Nav = () => {
           </Link>
 
           <div className="flex items-center res-nav-1a">
-            <p className="text-[#0C0114] mx-4">Categories</p>
+            <p className="text-[#0C0114] mx-4">
+              <Link to="/catigories">Categories</Link>
+            </p>
             <p className="text-[#0C0114] mx-4">Past editions</p>
             <p className="text-[#0C0114] mx-4">Future editions</p>
             <p className="text-[#0C0114] mx-4">About us</p>
