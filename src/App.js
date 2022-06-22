@@ -7,6 +7,7 @@ import Catigories from "./pages/home/catigories/catigories";
 import Landing from "./pages/home/Landing/landing";
 import FutureEdition from "./pages/home/futureEditions/futureEditions";
 import About from "./pages/home/aboutUs/about";
+import Donation from "./pages/home/Donation/donation";
 const App = () => {
   return (
     <div>
@@ -16,6 +17,7 @@ const App = () => {
           <Route path="/catigories" element={<Catigories />} />
           <Route path="/futureeditions" element={<FutureEdition />} />
           <Route path="/aboutus" element={<About />} />
+          <Route path="/donation" element={<Donation />} />
         </Route>
         <Route path="/createaccount" element={<CreateAccount />} />
         <Route path="/login" element={<Login />} />

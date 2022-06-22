@@ -23,7 +23,9 @@ const Nav = () => {
             <p className="text-[#0C0114] mx-4">
               <Link to="/aboutus">About us</Link>
             </p>
-            <p className="text-[#0C0114] mx-4">Make a donation</p>
+            <p className="text-[#0C0114] mx-4">
+              <Link to="/donation">Make a donation</Link>
+            </p>
           </div>
 
           <div className="flex items-center res-nav-2">
