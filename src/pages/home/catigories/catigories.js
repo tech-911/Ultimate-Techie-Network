@@ -12,7 +12,7 @@ const Catigories = () => {
         Voting Catigories
       </div>
       <div className="flex items-center justify-center mb-6">
-        <div className="flex items-center justify-between w-[30%] landing-search-res">
+        <div className="flex items-center justify-between w-[30%] catigories-search-res">
           <div className="border-[1px] border-[#DBDBDB] rounded-[4px] flex items-center pl-6 py-1 w-[78%]">
             <HiSearch className="text-[#BABABA] text-[20px]" />
             <input

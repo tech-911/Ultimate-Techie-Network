@@ -17,7 +17,9 @@ const Nav = () => {
               <Link to="/catigories">Categories</Link>
             </p>
             <p className="text-[#0C0114] mx-4">Past editions</p>
-            <p className="text-[#0C0114] mx-4">Future editions</p>
+            <p className="text-[#0C0114] mx-4">
+              <Link to="/futureeditions">Future editions</Link>
+            </p>
             <p className="text-[#0C0114] mx-4">About us</p>
             <p className="text-[#0C0114] mx-4">Make a donation</p>
           </div>
