@@ -1,0 +1,47 @@
+.ourtarget {
+  width: 100%;
+  /* height: 600px; */
+  background-image: url("../../assets/ourtarget-bg.svg");
+  background-color: #1f0231;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 90em 600em;
+  overflow-x: hidden;
+}
+.footer {
+  width: 100%;
+  /* height: 500px; */
+  background-image: url("../../assets/footer.png");
+  /* background-color: #1f0231; */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+@media only screen and (max-width: 1398px) {
+  .res-home-1 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 2.5rem;
+  }
+  .res-home-2 {
+    width: 90%;
+  }
+  .talent {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+  .footer {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+  .techie-res-1 {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+  .award-res-1 {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+}

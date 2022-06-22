@@ -1,6 +1,6 @@
 import React from "react";
 import { Routes, Route, Link } from "react-router-dom";
-import Home from "./pages/home";
+import Home from "./pages/home/home";
 import CreateAccount from "./pages/createAccount/createAccount";
 import Login from "./pages/Login/login";
 const App = () => {
