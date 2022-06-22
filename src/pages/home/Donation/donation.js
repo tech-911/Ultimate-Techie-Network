@@ -34,12 +34,22 @@ const Donation = () => {
             industry. Lorem Ipsum has been the industry's standard dummy text
             ever since the 1500s, when an unknown printer{" "}
           </p>
-          <ul>
+
+          <ul className="list-disc text-justify font-semibold">
             <li>The Connected Hack-ton in Major Cities across Africa</li>
-            <li>The Connected Hack-ton in Major Cities across Africa</li>
-            <li>The Connected Hack-ton in Major Cities across Africa</li>
-            <li>The Connected Hack-ton in Major Cities across Africa</li>
-            <li>The Connected Hack-ton in Major Cities across Africa</li>
+            <li>
+              The Peer to Gear Competition for Secondary School Students in
+              Africa{" "}
+            </li>
+            <li>Marathon Events across various Cities in Africa </li>
+            <li>
+              Tech-awareness across various schools, towns and villages in
+              Africa{" "}
+            </li>
+            <li>
+              Empowering more ladies in tech to bring a balance to the African
+              ecosystem
+            </li>
           </ul>
         </div>
         <img src={MoreAbout} alt="more about us" />
