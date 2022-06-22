@@ -14,7 +14,7 @@ import LeftBg from "../../../assets/left-bg.png";
 import talent1 from "../../../assets/first-talent.png";
 import talent2 from "../../../assets/second-talent.png";
 import talent3 from "../../../assets/third-talent.png";
-import FooterLogo from "../../../assets/footer-logo.svg";
+// import FooterLogo from "../../../assets/footer-logo.svg";
 
 const Home = () => {
   return (
@@ -142,7 +142,7 @@ const Home = () => {
         <img src={LeftBg} alt="" className="absolute bottom-0 left-0" />
       </div>
       {/* -------------------talent----------------------------- */}
-      <div className="talent px-80 mb-20">
+      <div className="talent px-80">
         <div className="grid grid-flow-col grid-cols-3 gap-3 self-center">
           <div className="border border-[#9E82B1] flex flex-col items-center justify-center px-4 py-10 w-[90%] h-[320px] place-self-center">
             <img src={talent2} alt="recognition" />
@@ -181,7 +181,7 @@ const Home = () => {
       </div>
       {/* -------------------footer----------------------------- */}
 
-      <div className="footer pt-16 pb-12 px-80">
+      {/* <div className="footer pt-16 pb-12 px-80">
         <div className="grid grid-cols-5">
           <div className="flex flex-col">
             <p className="text-[#FA9706] text-[16px] mb-6">About</p>
@@ -217,7 +217,7 @@ const Home = () => {
             &copy; 2022 The Conected Awards - All rights reserved
           </p>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };
