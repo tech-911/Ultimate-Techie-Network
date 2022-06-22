@@ -1,5 +1,4 @@
 import React from "react";
-// import NavIcon from "../assets/nav-icon.svg";
 import Logo from "../../assets/logo.png";
 import { TbMenu2 } from "react-icons/tb";
 import "./nav.css";
