@@ -3,3 +3,7 @@
     width: 50%;
   }
 }
+
+.widget-animate:hover {
+  transform: scale(1.1, 1.1);
+}

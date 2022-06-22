@@ -30,11 +30,11 @@ const Catigories = () => {
       <div className="container mx-auto mt-8 grid grid-cols-4 gap-4">
         {CatigoriesItems.map((value) => {
           return (
-            <div className="flex flex-col items-center justify-center px-4 py-6 rounded-[8px] shadow-[0px_2px_15px_rgba(230,230,230,0.5)] mx-5 mb-4">
-              <img src={CatigoriesLogo} alt="img" className="mb-4"/>
-              <p className="mb-6">{value.content}</p>
+            <div className="flex flex-col items-center justify-center px-4 py-6 rounded-[8px] shadow-[0px_2px_15px_rgba(230,230,230,0.5)] mx-5 mb-4 widget-animate transition-all ease-in-out">
+              <img src={CatigoriesLogo} alt="img" className="mb-4" />
+              <p className="mb-6 font-semibold">{value.content}</p>
               <div className="flex items-center justify-end w-[100%]">
-                <BsArrowRight className="text-[20px]"/>
+                <BsArrowRight className="text-[20px]" />
               </div>
             </div>
           );
