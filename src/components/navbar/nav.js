@@ -20,7 +20,9 @@ const Nav = () => {
             <p className="text-[#0C0114] mx-4">
               <Link to="/futureeditions">Future editions</Link>
             </p>
-            <p className="text-[#0C0114] mx-4">About us</p>
+            <p className="text-[#0C0114] mx-4">
+              <Link to="/aboutus">About us</Link>
+            </p>
             <p className="text-[#0C0114] mx-4">Make a donation</p>
           </div>
 

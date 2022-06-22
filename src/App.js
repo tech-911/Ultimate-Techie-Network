@@ -6,6 +6,7 @@ import Login from "./pages/Login/login";
 import Catigories from "./pages/home/catigories/catigories";
 import Landing from "./pages/home/Landing/landing";
 import FutureEdition from "./pages/home/futureEditions/futureEditions";
+import About from "./pages/home/aboutUs/about";
 const App = () => {
   return (
     <div>
@@ -14,6 +15,7 @@ const App = () => {
           <Route index element={<Landing />} />
           <Route path="/catigories" element={<Catigories />} />
           <Route path="/futureeditions" element={<FutureEdition />} />
+          <Route path="/aboutus" element={<About />} />
         </Route>
         <Route path="/createaccount" element={<CreateAccount />} />
         <Route path="/login" element={<Login />} />
