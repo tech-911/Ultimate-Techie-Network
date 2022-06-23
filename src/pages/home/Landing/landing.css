@@ -20,6 +20,24 @@
   overflow-y: hidden;
 }
 
+@media only screen and (max-width: 414px) {
+  .land-res-1 {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+    width: 70%;
+    font-weight: 500;
+  }
+  .home-search-res {
+    width: 90% !important;
+  }
+  .landing-search-button {
+    margin: 0px 10px;
+  }
+  .res-home-1 {
+    grid-template-columns: repeat(1, minmax(0, 1fr)) !important;
+    gap: 1.5rem !important;
+  }
+}
 @media only screen and (max-width: 1398px) {
   .res-home-1 {
     grid-template-columns: repeat(2, minmax(0, 1fr));

@@ -20,7 +20,7 @@ const Home = () => {
   return (
     <div className="font-pulpdisplay">
       <div className="flex items-center justify-center mb-8">
-        <p className="text-[96px] text-center tracking-[-0.06em] w-[60%] leading-[115px]">
+        <p className="text-[96px] text-center tracking-[-0.06em] w-[60%] leading-[115px] land-res-1">
           First Ever Tech Personality Award For Africans in Europe
         </p>
       </div>
@@ -34,7 +34,7 @@ const Home = () => {
               className="outline-none p-2 w-[100%] home-search-res-1"
             />
           </div>
-          <button className="bg-[#3E0563] px-8 py-3 rounded-[4px] text-[white]">
+          <button className="bg-[#3E0563] px-8 py-3 rounded-[4px] text-[white] landing-search-button">
             Search
           </button>
         </div>
