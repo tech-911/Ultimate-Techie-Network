@@ -37,6 +37,42 @@
     grid-template-columns: repeat(1, minmax(0, 1fr)) !important;
     gap: 1.5rem !important;
   }
+  .award-res-1 {
+    grid-template-columns: repeat(1, minmax(0, 1fr)) !important;
+    gap: 2.5rem !important;
+    padding: 0px 20px !important;
+  }
+  .award-res-1 > img {
+    width: 100%;
+  }
+  .award-res-1a {
+    margin-bottom: 150px;
+    width: 100%;
+  }
+  .techie-res-1 {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+    gap: 1.5rem;
+    padding: 0px 20px !important;
+    padding-bottom: 250px !important;
+  }
+  .techie-res-1a {
+    width: 100%;
+  }
+  .techie-res-1 img {
+    width: 100%;
+  }
+  .talent-res {
+    grid-template-columns: repeat(1, minmax(0, 1fr)) !important;
+    gap: 2.5rem !important;
+    padding: 0px 20px !important;
+  }
+  .talent-res div{
+    width: 100% !important;
+    
+  }
+  .talent{
+    padding: 0px 20px !important;
+  }
 }
 @media only screen and (max-width: 1398px) {
   .res-home-1 {

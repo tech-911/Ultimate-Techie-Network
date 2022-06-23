@@ -86,7 +86,7 @@ const Home = () => {
             className="h-[100%] w-[90%]"
           />
 
-          <div className="flex flex-col w-[90%]">
+          <div className="flex flex-col w-[90%] award-res-1a">
             <div className=" mb-5">
               <h1 className="text-[36px] text-[#0C0114] w-[100%] mb-[1px] font-semibold">
                 The Connected Awards
@@ -111,9 +111,9 @@ const Home = () => {
       </div>
       {/* -------------------celebrated techie------------------------------ */}
 
-      <div className="flex items-start justify-between relative mb-20  ">
+      <div className="flex items-start justify-between relative mb-20  techie-res-0">
         <div className="grid grid-cols-2 gap-4 px-80 techie-res-1">
-          <div className="flex flex-col w-[90%]">
+          <div className="flex flex-col w-[90%] techie-res-1a">
             <div className=" mb-5">
               <h1 className="text-[36px] text-[#0C0114] w-[100%] mb-[1px] font-semibold">
                 Celebrated Techies
@@ -143,7 +143,7 @@ const Home = () => {
       </div>
       {/* -------------------talent----------------------------- */}
       <div className="talent px-80">
-        <div className="grid grid-flow-col grid-cols-3 gap-3 self-center">
+        <div className="grid grid-cols-3 gap-3 self-center talent-res">
           <div className="border border-[#9E82B1] flex flex-col items-center justify-center px-4 py-10 w-[90%] h-[320px] place-self-center">
             <img src={talent2} alt="recognition" />
             <p className="text-[#3E0563] text-[25px] text-center mt-4 font-semibold">
