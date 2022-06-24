@@ -64,25 +64,37 @@ const Nav = () => {
       </div>
       <div className={`${hamburger ? "" : "hidden"} mb-14`}>
         <div className="border-b-[1px] border-[#EDEDED] py-5 text-[18px] font-semibold">
-          <p className="ml-6">Categories</p>
+          <p className="ml-6">
+            <Link to="/catigories">Categories</Link>
+          </p>
         </div>
         <div className="border-b-[1px] border-[#EDEDED] py-5 text-[18px] font-semibold">
           <p className="ml-6">Past editions</p>
         </div>
         <div className="border-b-[1px] border-[#EDEDED] py-5 text-[18px] font-semibold">
-          <p className="ml-6">Future editions</p>
+          <p className="ml-6">
+            <Link to="/futureeditions">Future editions</Link>
+          </p>
         </div>
         <div className="border-b-[1px] border-[#EDEDED] py-5 text-[18px] font-semibold">
-          <p className="ml-6">About us</p>
+          <p className="ml-6">
+            <Link to="/aboutus">About us</Link>
+          </p>
         </div>
         <div className="border-b-[1px] border-[#EDEDED] py-5 text-[18px] font-semibold">
-          <p className="ml-6">Make a donation</p>
+          <p className="ml-6">
+            <Link to="/donation">Make a donation</Link>
+          </p>
         </div>
         <div className="border-b-[1px] border-[#EDEDED] py-5 text-[18px] font-semibold">
-          <p className="ml-6">Log in</p>
+          <p className="ml-6">
+            <Link to="/login">Log in</Link>
+          </p>
         </div>
         <div className="border-b-[1px] border-[#EDEDED] py-5 text-[18px] font-semibold">
-          <p className="ml-6">Create account</p>
+          <p className="ml-6">
+            <Link to="/createaccount">Create account</Link>
+          </p>
         </div>
       </div>
     </div>
