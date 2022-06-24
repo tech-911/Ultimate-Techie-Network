@@ -3,15 +3,22 @@ import Logo from "../../assets/logo.png";
 import { TbMenu2 } from "react-icons/tb";
 import "./nav.css";
 import { Link } from "react-router-dom";
+import { useState } from "react";
+import { MdClose } from "react-icons/md";
 const Nav = () => {
+  const [hamburger, setHamburger] = useState(0);
+  console.log(hamburger);
   return (
     <div className="font-pulpdisplay">
-      <div className="shadow-[0_1px_0px_rgba(219,219,219,0.5)] flex items-center justify-center mb-14">
+      <div
+        className={`shadow-[0_1px_0px_rgba(219,219,219,0.5)] flex items-center justify-center ${
+          !hamburger ? "mb-10" : ""
+        }`}
+      >
         <div className="flex items-center justify-between py-5 w-[90%]  res-nav-1">
           <Link to="/">
             <img src={Logo} alt="" />
           </Link>
-
           <div className="flex items-center res-nav-1a">
             <p className="text-[#0C0114] mx-4">
               <Link to="/catigories">Categories</Link>
@@ -27,7 +34,6 @@ const Nav = () => {
               <Link to="/donation">Make a donation</Link>
             </p>
           </div>
-
           <div className="flex items-center res-nav-2">
             <Link
               to="/login"
@@ -42,7 +48,41 @@ const Nav = () => {
               Create Account
             </Link>
           </div>
-          <TbMenu2 className="text-[#3E0563] text-[30px] hidden res-nav-4" />
+          <div
+            className="res-nav-4"
+            onClick={() => {
+              setHamburger(!hamburger);
+            }}
+          >
+            {!hamburger ? (
+              <TbMenu2 className={`text-[#3E0563] text-[30px]`} />
+            ) : (
+              <MdClose className={` text-[#3E0563] text-[30px]`} />
+            )}
+          </div>
+        </div>
+      </div>
+      <div className={`${hamburger ? "" : "hidden"} mb-14`}>
+        <div className="border-b-[1px] border-[#EDEDED] py-5 text-[18px] font-semibold">
+          <p className="ml-6">Categories</p>
+        </div>
+        <div className="border-b-[1px] border-[#EDEDED] py-5 text-[18px] font-semibold">
+          <p className="ml-6">Past editions</p>
+        </div>
+        <div className="border-b-[1px] border-[#EDEDED] py-5 text-[18px] font-semibold">
+          <p className="ml-6">Future editions</p>
+        </div>
+        <div className="border-b-[1px] border-[#EDEDED] py-5 text-[18px] font-semibold">
+          <p className="ml-6">About us</p>
+        </div>
+        <div className="border-b-[1px] border-[#EDEDED] py-5 text-[18px] font-semibold">
+          <p className="ml-6">Make a donation</p>
+        </div>
+        <div className="border-b-[1px] border-[#EDEDED] py-5 text-[18px] font-semibold">
+          <p className="ml-6">Log in</p>
+        </div>
+        <div className="border-b-[1px] border-[#EDEDED] py-5 text-[18px] font-semibold">
+          <p className="ml-6">Create account</p>
         </div>
       </div>
     </div>

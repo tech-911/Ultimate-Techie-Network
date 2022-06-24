@@ -144,7 +144,7 @@ const Home = () => {
       {/* -------------------talent----------------------------- */}
       <div className="talent px-80">
         <div className="grid grid-cols-3 gap-3 self-center talent-res">
-          <div className="border border-[#9E82B1] flex flex-col items-center justify-center px-4 py-10 w-[90%] h-[320px] place-self-center">
+          <div className="border border-[#9E82B1] flex flex-col items-center justify-center px-4 py-10 w-[90%] h-[320px] place-self-center rounded-[8px]">
             <img src={talent2} alt="recognition" />
             <p className="text-[#3E0563] text-[25px] text-center mt-4 font-semibold">
               Promising Talent
@@ -155,7 +155,7 @@ const Home = () => {
               well recognized in their field for impacting with their skills.
             </p>
           </div>
-          <div className="border border-[#9E82B1] flex flex-col items-center justify-center px-4 py-10 w-[90%] h-[320px] place-self-center">
+          <div className="border border-[#9E82B1] flex flex-col items-center justify-center px-4 py-10 w-[90%] h-[320px] place-self-center rounded-[8px]">
             <img src={talent3} alt="recognition" />
             <p className="text-[#3E0563] text-[25px] text-center mt-4 font-semibold">
               Intermediate Talent
@@ -166,7 +166,7 @@ const Home = () => {
               well recognized in their field for impacting with their skills.
             </p>
           </div>
-          <div className="border border-[#9E82B1] flex flex-col items-center justify-center px-4 py-10 w-[90%] h-[320px] place-self-center">
+          <div className="border border-[#9E82B1] flex flex-col items-center justify-center px-4 py-10 w-[90%] h-[320px] place-self-center rounded-[8px]">
             <img src={talent1} alt="recognition" />
             <p className="text-[#3E0563] text-[25px] text-center mt-4 font-semibold">
               Exceptional Talent
